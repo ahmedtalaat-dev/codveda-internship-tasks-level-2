@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta -->
+    <title>Manara Photography</title>
+    <meta
+      name="description"
+      content="Discover a visual journey through nature, travel, and lifestyle photography."
+    />
+    <meta
+      name="keywords"
+      content="Discover, visual, journey, nature, travel, lifestyle, photography"
+    />
+    <meta name="author" content="Ahmed Talaat" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/logo.jpg" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Manara Photography" />
+    <meta
+      property="og:description"
+      content="Discover a visual journey through nature, travel, and lifestyle photography."
+    />
+    <meta property="og:image" content="/images/logo.jpg" />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Manara</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <header id="home" class="hero">
+      <div class="hero-content">
+        <h1>Explore Beautiful Moments</h1>
+        <p>
+          Discover a visual journey through nature, travel, and lifestyle
+          photography.
+        </p>
+        <a href="#gallery" class="btn">View Gallery</a>
+      </div>
+    </header>
+
+    <section id="gallery" class="gallery-section">
+      <div class="section-title">
+        <h2>Our Gallery</h2>
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="nature">Nature</button>
+          <button class="filter-btn" data-filter="travel">Travel</button>
+          <button class="filter-btn" data-filter="food">Food</button>
+        </div>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item nature" data-category="nature">
+          <img
+            src="https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&q=80&w=1000"
+            alt="Serene Mountains"
+            loading="lazy"
+          />
+          <div class="overlay"><span>Serene Mountains</span></div>
+        </div>
+        <div class="gallery-item travel tall" data-category="travel">
+          <img
+            src="https://images.unsplash.com/photo-1645536735323-127d9ba3bf68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2l0eSUyMEV4cGxvcmF0aW9ufGVufDB8fDB8fHww"
+            alt="City Exploration"
+            loading="lazy"
+          />
+          <div class="overlay"><span>City Exploration</span></div>
+        </div>
+        <div class="gallery-item food wide" data-category="food">
+          <img
+            src="https://images.unsplash.com/photo-1645066804237-08145dd196e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RGVsaWNpb3VzJTIwQ3Vpc2luZXxlbnwwfHwwfHx8MA%3D%3D"
+            alt="Delicious Cuisine"
+            loading="lazy"
+          />
+          <div class="overlay"><span>Delicious Cuisine</span></div>
+        </div>
+        <div class="gallery-item nature" data-category="nature">
+          <img
+            src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=1000"
+            alt="Misty Forest"
+            loading="lazy"
+          />
+          <div class="overlay"><span>Misty Forest</span></div>
+        </div>
+        <div class="gallery-item travel" data-category="travel">
+          <img
+            src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=80&w=1000"
+            alt="Tropical Beach"
+            loading="lazy"
+          />
+          <div class="overlay"><span>Tropical Beach</span></div>
+        </div>
+        <div class="gallery-item food tall" data-category="food">
+          <img
+            src="https://images.unsplash.com/photo-1543353071-087092ec393a?auto=format&fit=crop&q=80&w=1000"
+            alt="Gourmet Dish"
+            loading="lazy"
+          />
+          <div class="overlay"><span>Gourmet Dish</span></div>
+        </div>
+        <div class="gallery-item nature wide" data-category="nature">
+          <img
+            src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&q=80&w=1000"
+            alt="Sunny Meadow"
+            loading="lazy"
+          />
+          <div class="overlay"><span>Sunny Meadow</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <h2>About The Gallery</h2>
+        <p>
+          Welcome to Manara, a curated space dedicated to the art of visual
+          storytelling. Whether it's the serene untouched landscapes of nature,
+          the bustling vibrancy of urban travel, or the exquisite details of
+          fine cuisine.
+        </p>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-behance"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+      </div>
+      <p>&copy; 2026 Manara Photography. All rights reserved.</p>
+      <p>Made with 🤍 by Ahmed Talaat.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
