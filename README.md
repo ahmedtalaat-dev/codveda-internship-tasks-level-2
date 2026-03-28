@@ -24,7 +24,7 @@ HTML | CSS | JavaScript
 ## 2. XO Game
 
 **Description:**  
-A fun and interactive XO (Tic-Tac-Toe) game built with **Next.js, Tailwind CSS, and Lucide React**. Users can play **against a friend** or **against the computer**, with selectable difficulty levels.
+A fun and interactive Tic-Tac-Toe (XO) game built with **Next.js, Tailwind CSS, and Lucide React**. Users can play **against a friend** or **against the computer**, with selectable difficulty levels.
 
 **Features:**  
 - **Two-player mode:** Play with a friend  
